@@ -1,12 +1,21 @@
+h1, h2 {
+    color: rgb(233, 175, 15);
+}
+
 p {
     font-size: 20px;
     color: rgb(94, 94, 94);
 }
 
-h1, h2 {
-    color: rgb(233, 175, 15);
-}
-
 .about-heading {
     color: rgb(240, 17, 17);
+}
+
+.important-text {
+    color: #000;
+    font-weight: 700;
+}
+
+a:hover {
+    color: rgb(231, 22, 22);
 }
