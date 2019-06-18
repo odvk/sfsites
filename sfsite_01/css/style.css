@@ -1,15 +1,35 @@
+/*header*/
+header {
+    color: #000;
+}
+
+header a {
+    display: inline-block;
+    margin: 0 30px;
+    color: inherit;
+}
+
+header a:nth-child(2) {
+    color: rgb(64, 216, 25);
+}
+
+/*main*/
+
+body {
+    font-size: 20px;
+    color: rgb(23, 74, 151);
+}
+
 h1, h2 {
     color: rgb(233, 175, 15);
 }
 
-p {
-    /*font-size: 20px;*/
-    /*color: rgb(94, 94, 94);*/
-    display: inline-block;
-    width: 60ch;
-    font-size: 20px;
-
-}
+/*p {*/
+/*    display: inline-block;*/
+/*    width: 60ch;*/
+/*    font-size: 20px;*/
+/*    color: rgb(94, 94, 94);*/
+/*}*/
 
 .about-heading {
     color: rgb(240, 17, 17);

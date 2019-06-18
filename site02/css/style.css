@@ -1,0 +1,37 @@
+/*header*/
+header {
+    background-color: lightblue;
+}
+
+.logo {
+    width: 50px;
+}
+.site-menu {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+}
+
+.site-menu li{
+    display: inline-block;
+}
+
+.site-menu a {
+    font-size: 20px;
+    color: #fff;
+}
+
+
+/*main*/
+body {
+    margin: 0;
+}
+
+.text-block {
+    width: 800px;
+}
+
+.image-block {
+    width: 300px;
+}
