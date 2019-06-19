@@ -24,12 +24,16 @@ h1, h2 {
     color: rgb(233, 175, 15);
 }
 
-/*p {*/
-/*    display: inline-block;*/
-/*    width: 60ch;*/
-/*    font-size: 20px;*/
-/*    color: rgb(94, 94, 94);*/
-/*}*/
+p {
+    /*    display: inline-block;*/
+    /*    width: 60ch;*/
+    font-size: 20px;
+    color: rgb(94, 94, 94);
+}
+
+h2 + p {
+    font-style: italic;
+}
 
 .about-heading {
     color: rgb(240, 17, 17);
@@ -40,6 +44,17 @@ h1, h2 {
     font-weight: 700;
 }
 
+.text {
+    font-size: 30px;
+}
+
+a {
+    font-size: 30px;
+}
+
 a:hover {
     color: rgb(231, 22, 22);
 }
+
+/*footer*/
+
