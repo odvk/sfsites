@@ -1,26 +1,52 @@
+body{
+    font-family: Arial, sans-serif;
+
+}
 h1 {
     text-transform: uppercase;
-    font-family: SansSerif;
     font-weight: bolder;
     font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
 }
 
 /*header*/
 
 .nav-block {
-    /*position: absolute;*/
+    display: inline-block;
     width: 1249px;
     height: 89px;
-    left: 164px;
-    background-color: #000000;
+    margin: 0 auto;
     margin-bottom: 50px;
-    /*background-color: #5cffbf;*/
+    background-color: #000000;
+}
+
+.nav-block-inner {
+    width: 550px;
+    margin: 0 auto;
+    /*background-color: gray;*/
+
 }
 
 .navigation {
-    display: inline-block;
+    display: table-cell;
     height: 89px;
     color: #E0E0E0;
+    font-weight: bolder;
+    vertical-align: middle;
+    text-transform: uppercase;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+
+.navigation:hover {
+    background-color: #FF2D2D;
+
 }
 
 /*main*/
@@ -33,21 +59,32 @@ h1 {
 
 .content-block {
     width: 1249px;
+    margin: 0 auto;
+
 }
 
 .innercontent {
     display: inline-block;
+    /*width: 49%;*/
+    /*vertical-align: top;*/
+    background-color: orange;
+}
+.innercontent-inner{
+    display: inline-block;
     width: 49%;
+    background-color: gray;
+    vertical-align: top;
+    horiz-align: right;
+    margin: auto;
 }
 
 .button {
     width: 330px;
     height: 158px;
-    font-family: SansSerif;
     padding-top: 10px;
+    padding-right: 40px;
     padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
     color: #FFFFFF;
     background-color: #FF2D2D;
 }
@@ -57,4 +94,5 @@ h1 {
 .box {
     display: inline-block;
     width: 33%;
+
 }
