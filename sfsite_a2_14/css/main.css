@@ -1,12 +1,60 @@
-/*header*/
-
-.navigation{
-    display: inline-block;
+h1 {
+    text-transform: uppercase;
+    font-family: SansSerif;
+    font-weight: bolder;
+    font-size: 60px;
 }
 
+/*header*/
+
+.nav-block {
+    /*position: absolute;*/
+    width: 1249px;
+    height: 89px;
+    left: 164px;
+    background-color: #000000;
+    margin-bottom: 50px;
+    /*background-color: #5cffbf;*/
+}
+
+.navigation {
+    display: inline-block;
+    height: 89px;
+    color: #E0E0E0;
+}
 
 /*main*/
 
+.artboard {
+    width: 1582px;
+    height: 691px;
+    background-color: #F6F2F2;
+}
 
+.content-block {
+    width: 1249px;
+}
+
+.innercontent {
+    display: inline-block;
+    width: 49%;
+}
+
+.button {
+    width: 330px;
+    height: 158px;
+    font-family: SansSerif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #FFFFFF;
+    background-color: #FF2D2D;
+}
 
 /*footer*/
+
+.box {
+    display: inline-block;
+    width: 33%;
+}
