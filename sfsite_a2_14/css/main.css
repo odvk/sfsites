@@ -1,7 +1,8 @@
-body{
+body {
     font-family: Arial, sans-serif;
 
 }
+
 h1 {
     text-transform: uppercase;
     font-weight: bolder;
@@ -10,7 +11,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-p{
+p {
     font-size: 16px;
 }
 
@@ -65,34 +66,42 @@ p{
 
 .innercontent {
     display: inline-block;
-    /*width: 49%;*/
-    /*vertical-align: top;*/
-    background-color: orange;
-}
-.innercontent-inner{
-    display: inline-block;
-    width: 49%;
-    background-color: gray;
-    vertical-align: top;
-    horiz-align: right;
-    margin: auto;
 }
 
+.innercontent-inner {
+    position: relative;
+    display: inline-block;
+    width: 618px;
+    height: 359px;
+    vertical-align: bottom;
+    horiz-align: right;
+}
+
+.innercontent-inner p {
+    width: 500px;
+}
+
+.innercontent-inner img {
+    margin-left: 64px;
+
+}
+
+
 .button {
-    width: 330px;
-    height: 158px;
-    padding-top: 10px;
-    padding-right: 40px;
-    padding-bottom: 10px;
-    padding-left: 40px;
+    position: absolute;
+    width: 230px;
+    height: 58px;
+    left: 0;
+    bottom: 0;
     color: #FFFFFF;
     background-color: #FF2D2D;
+    text-align: center;
+
+}
+
+.button a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 /*footer*/
-
-.box {
-    display: inline-block;
-    width: 33%;
-
-}
