@@ -1,4 +1,7 @@
-А3.5 Готово
+Task A3.5 is done
 
-Ссылка на архив для скачивания:
+Link for download:
+
 https://drive.google.com/file/d/1uHvVK3BIT15dSUQSKBwIf78__kNWkDsz/view?usp=sharing
+
+Р—Р°РґР°РЅРёРµ РЅР° РїСЂРѕРІРµСЂРєСѓ.
