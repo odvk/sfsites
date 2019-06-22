@@ -1,6 +1,6 @@
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
-
 }
 
 h1 {
@@ -43,6 +43,11 @@ p {
     padding-right: 30px;
     padding-left: 30px;
 
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #E0E0E0;
 }
 
 .navigation:hover {
