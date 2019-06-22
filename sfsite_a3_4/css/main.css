@@ -1,5 +1,31 @@
+/*Подключаем шрифт*/
+@font-face {
+    src: url('../fonts/RuslanDisplay.ttf');
+    font-family: "Ruslan Display";
+}
+@font-face {
+    src: url('../fonts/Roboto-Regular.ttf');
+    font-family: "Roboto Regular";
+}
+
+@font-face {
+    src: url('../fonts/Spectral-Regular.ttf');
+    font-family: "Spectral Regular";
+}
+
+
+@font-face {
+    src: url('../fonts/OpenSans-Regular.ttf');
+    font-family: "OpenSans Regular";
+}
+
+@font-face {
+    src: url('../fonts/OpenSans-Bold.ttf');
+    font-family: "OpenSans Bold";
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "OpenSans Regular", Arial, Helvetica, sans-serif;
 
 }
 
@@ -13,6 +39,12 @@ h1 {
 
 p {
     font-size: 16px;
+    font-family: "Spectral Regular", Arial, Helvetica, serif;
+}
+
+a{
+    font-family: "Roboto Regular", Arial, Helvetica, sans-serif;
+
 }
 
 /*header*/
@@ -77,6 +109,11 @@ p {
     horiz-align: right;
 }
 
+.innercontent-inner h1 {
+    font-family: "Ruslan Display", Arial, Helvetica, sans-serif;
+
+}
+
 .innercontent-inner p {
     width: 500px;
 }
@@ -102,6 +139,7 @@ p {
 .button a {
     color: #FFFFFF;
     text-decoration: none;
+    font-weight: bolder;
 }
 
 /*footer*/
