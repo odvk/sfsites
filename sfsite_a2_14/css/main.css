@@ -51,7 +51,7 @@ p {
 }
 
 .navigation:hover {
-    background-color: #FF2D2D;
+    background-color: #FF3F40;
 
 }
 
@@ -101,12 +101,14 @@ p {
     color: #FFFFFF;
     background-color: #FF2D2D;
     text-align: center;
+    /*vertical-align: center;*/
 
 }
 
 .button a {
     color: #FFFFFF;
     text-decoration: none;
+    /*vertical-align: center;*/
 }
 
 /*footer*/
