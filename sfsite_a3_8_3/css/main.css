@@ -15,15 +15,9 @@ body {
 
 }
 
-.site-menu {
-    width: 350px;
-    justify-content: space-around;
-    text-align: center;
-}
+.navigation a {
 
-.site-menu a {
-
-    /*padding: 42px 25px 30px;*/
+    padding: 42px 25px 30px;
     color: #e0e0e0;
     font-size: 14px;
     font-weight: bold;
@@ -32,6 +26,6 @@ body {
 
 }
 
-.site-menu a:hover {
+.navigation a:hover {
     background-color: #ff3f40;
 }

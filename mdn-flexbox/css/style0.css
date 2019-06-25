@@ -27,5 +27,6 @@ article {
 /* Add your flexbox CSS below here */
 
 section {
-  display: flex;
+    display: flex;
+
 }
