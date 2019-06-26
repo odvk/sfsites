@@ -55,7 +55,7 @@ body {
 
 }
 
-.intro-wrapper {
+.intro-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -63,7 +63,7 @@ body {
     width: 50%;
 }
 
-.intro-wrapper h1 {
+.intro-content h1 {
     margin: 0;
     font-size: 60px;
     font-weight: 800;
@@ -107,4 +107,8 @@ body {
 
 .copyright {
     color: #B8B8B8;
+}
+
+.social-icons >a {
+    padding: 0 9px;
 }
