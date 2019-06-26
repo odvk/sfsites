@@ -18,14 +18,14 @@ body {
     align-items: center;
 
     width: 1249px;
-    min-height: 88px;
+    min-height: 89px;
     background-color: #000000;
 
 }
 
 .header a {
 
-    padding: 42px 25px 30px;
+    padding: 42px 25px 34px;
     color: #e0e0e0;
     font-size: 14px;
     font-weight: bold;
