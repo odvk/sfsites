@@ -65,6 +65,9 @@ body {
     text-transform: uppercase;
 }
 
+.intro-wrapper p{
+    font-size: 16px;
+}
 
 .contact-link {
     color: #ffffff;
