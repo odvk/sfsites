@@ -2,4 +2,4 @@
 Для проверки.
 
 Ссылка для скачивания архива задания на проверку:
-https://drive.google.com/file/d/1bercVliXG2rGAQ7wAohY2_9BHPv9hnF1/view?usp=sharing
+https://drive.google.com/file/d/1DC9gTagTDho4sLVnpBV1aINdzNLTCZvB/view?usp=sharing
