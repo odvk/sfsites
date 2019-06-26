@@ -7,6 +7,9 @@ body {
     width: 1249px;
     height: 89px;
     background-color: #000000;
+    /*центрирование блока*/
+    margin: 0 auto;
+
 }
 
 .site-menu {
@@ -31,6 +34,9 @@ body {
     background-color: #e0e0e0;
     width: 1249px;
     padding: 108px 0 123px;
+    /*центрирование блока*/
+    margin: 0 auto;
+
 }
 
 .intro-wrapper {

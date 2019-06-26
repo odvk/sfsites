@@ -1,21 +1,29 @@
+/*подключаем шрифты*/
+/*!*Open Sans*!*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap&subset=cyrillic');
+
 body {
     margin: 0;
     background-color: #e0e0e0;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+
 }
 
-.navigation {
+.header {
     margin: 0 auto;
+
     display: flex;
     justify-content: center;
     align-items: center;
 
     width: 1249px;
-    height: 89px;
+    min-height: 89px;
     background-color: #000000;
 
 }
 
-.navigation a {
+.header a {
 
     padding: 42px 25px 30px;
     color: #e0e0e0;
@@ -26,6 +34,44 @@ body {
 
 }
 
-.navigation a:hover {
+.header a:hover {
     background-color: #ff3f40;
+}
+
+.intro {
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #e0e0e0;
+    width: 1249px;
+    padding: 108px 0 123px;
+
+}
+
+.intro-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 50%;
+}
+
+.intro-wrapper h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+.contact-link {
+    color: #ffffff;
+    background-color: #ff3f40;
+    width: 227px;
+    padding: 22px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
 }
