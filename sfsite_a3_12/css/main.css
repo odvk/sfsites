@@ -16,18 +16,25 @@ body {
 
     display: flex;
     flex-wrap: wrap;
+
     justify-content: center;
     align-items: center;
 
-    /*width: 1249px;*/ /*не работает перенос при фикс.ширине*/
+    /*не работает перенос при фикс.ширине*/
+    max-width: 1249px;
     min-height: 89px;
     background-color: #000000;
+
+    /*border: 2px solid green;*/
+
 
 }
 
 .nav {
     display: flex;
     flex-wrap: wrap;
+
+    /*border: 2px solid red;*/
 
 }
 
@@ -49,19 +56,24 @@ body {
     background-color: #ff3f40;
 }
 
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
 
+}
 
 .intro {
     margin: 0 auto;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 
     background-color: #e0e0e0;
-    width: 1249px;
+    max-width: 1249px;
     padding: 85px 0 200px;
 
-    /*border: 2px solid red;*/
+    /*border: 2px solid blue;*/
 
 }
 
@@ -86,14 +98,17 @@ body {
     background-color: #ff3f40;
     width: 227px;
     padding: 17px 0;
+    margin: 15px 0;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
+    border-radius: 10px;
 }
 
 
 .footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
@@ -106,6 +121,8 @@ body {
 
 .foot-inner {
     display: flex;
+    flex-wrap: wrap;
+
     justify-content: space-between;
     align-items: center;
 
@@ -119,6 +136,9 @@ body {
     color: #B8B8B8;
 }
 
-.social-icons >a {
+.social-icons{
+    margin: 20px 0;
+}
+.social-icons > a {
     padding: 0 9px;
 }
