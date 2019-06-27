@@ -1,0 +1,114 @@
+/*подключаем шрифты*/
+/*!*Open Sans*!*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap&subset=cyrillic');
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #e0e0e0;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+
+}
+
+.header {
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 1249px;
+    min-height: 89px;
+    background-color: #000000;
+
+}
+
+.nav a {
+
+    padding: 42px 25px 34px;
+    color: #e0e0e0;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.nav a:hover {
+    background-color: #ff3f40;
+}
+
+
+
+.intro {
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #e0e0e0;
+    width: 1249px;
+    padding: 85px 0 200px;
+
+    /*border: 2px solid red;*/
+
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 50%;
+}
+
+.intro-content h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+.contact-link {
+    color: #ffffff;
+    background-color: #ff3f40;
+    width: 227px;
+    padding: 17px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+
+    min-height: 113px;
+    background-color: #313030;
+
+}
+
+.foot-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1249px;
+    /*выделим границу блока*/
+    /*border: 2px solid red;*/
+
+}
+
+.copyright {
+    color: #B8B8B8;
+}
+
+.social-icons >a {
+    padding: 0 9px;
+}
