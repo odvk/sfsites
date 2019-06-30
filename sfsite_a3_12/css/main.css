@@ -20,7 +20,6 @@ body {
     justify-content: center;
     align-items: center;
 
-    /*не работает перенос при фикс.ширине*/
     max-width: 1249px;
     min-height: 89px;
     background-color: #000000;
@@ -57,8 +56,8 @@ body {
 }
 
 .wrapper {
-    display: flex;
-    flex-wrap: wrap;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
 
 }
 
@@ -85,7 +84,11 @@ body {
     width: 50%;
 }
 
-.intro-content h1 {
+/*.intro-content > p{*/
+/*    margin-bottom: 40px;*/
+/*}*/
+
+.intro-content > h1 {
     margin: 0;
     font-size: 60px;
     font-weight: 800;
@@ -98,7 +101,7 @@ body {
     background-color: #ff3f40;
     width: 227px;
     padding: 17px 0;
-    margin: 15px 0;
+    /*margin: 15px 0;*/
     text-align: center;
     text-decoration: none;
     font-weight: bold;
