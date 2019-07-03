@@ -345,6 +345,7 @@ body {
 .our-team {
     width: 1249px;
     margin: 10rem auto;
+    /*display: flex;*/
 
 }
 
@@ -379,12 +380,11 @@ body {
 
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
-
 .our-team-boss {
-
 
 }
 
@@ -393,6 +393,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-wrap: wrap;
 
     width: 70%;
 
@@ -451,6 +452,7 @@ body {
     /*margin: 0;*/
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 
 }
@@ -476,7 +478,7 @@ body {
     margin-top: -3rem;
     padding: 0;
     text-transform: uppercase;
-    border: 0;
+    border: none;
     background-color: #f5f0dd;
     color: #f5f0dd;
     font-size: 1.8rem;
@@ -491,7 +493,73 @@ body {
 
 }
 
+/*------------------------ Subscribe Area -----------------*/
+.subscribe-wrapper {
+    margin: 0;
+    background-color: #000;
 
+}
+
+.subscribe {
+    width: 1249px;
+    margin: 0 auto;
+    padding-top: 8rem;
+    padding-bottom: 14rem;
+
+    /*display: flex;*/
+    /*justify-content: center;*/
+
+
+}
+
+.subscribe-header {
+    /*border: 1px solid deeppink;*/
+
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.subscribe-header h2 {
+
+    font-size: 4.2rem;
+    color: #fff;
+}
+
+.subscribe-header p {
+    color: #fff;
+
+}
+
+.subscribe-area {
+    /*border: 1px solid red;*/
+
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-input {
+    width: 524px;
+    height: 82px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-right: 2rem;
+}
+
+.subscribe-button {
+    width: 217px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF2D2D;
+
+}
+
+.subscribe-button:hover{
+    cursor: pointer;
+}
 /*------------------------Footer--------------------*/
 
 .footer {
