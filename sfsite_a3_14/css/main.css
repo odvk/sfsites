@@ -138,12 +138,16 @@ body {
     font-size: 2rem;
 }
 
-/*Services*/
+/*----------------------- Services ---------------------------*/
 .services {
     display: flex;
     justify-content: space-between;
 
-    margin: 11.5rem auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 11.5rem;
+    margin-bottom: 6rem;
+
     max-width: 1249px;
     font-size: 1.5rem;
     background-color: #fff;
@@ -156,6 +160,7 @@ body {
 .services p {
     font-size: 1.6rem;
     line-height: 1.7;
+    width: 90%;
 
 }
 
@@ -190,8 +195,6 @@ body {
 .service-tag {
     /*border: 1px solid red;*/
     width: 27rem;
-    /*font-size: 1.4rem;*/
-    /*line-height: 1.4;*/
 
 
 }
@@ -208,7 +211,7 @@ body {
 }
 
 .service-tag p {
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 .service-tag h3 {
@@ -242,11 +245,18 @@ body {
     /*background-color: #6e45e2;*/
 }
 
-/*-----------Feature Products*/
+/*-----------Feature Products ---------------------------*/
 
 .feature-products {
+    /*border: 1px solid red;*/
+
+
     max-width: 1249px;
-    margin: 10rem auto;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9.5rem;
+    margin-bottom: 11.5rem;
 
     /*display: flex;*/
 
@@ -254,6 +264,7 @@ body {
 
 .feature-products-header {
     text-align: center;
+    margin-left: 3rem;
     margin-bottom: 5rem;
 }
 
@@ -261,13 +272,16 @@ body {
     font-size: 4rem;
     font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 2.5rem;
+
 }
 
 .feature-products-header p {
     width: 53rem;
     display: inline-block;
     line-height: 1.4;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 
 }
 
@@ -327,7 +341,7 @@ body {
 
 }
 
-/*----------- Our Team ---------------*/
+/*--------------------------- Our Team ---------------*/
 .our-team {
     width: 1249px;
     margin: 10rem auto;
@@ -336,6 +350,13 @@ body {
 
 .our-team-header {
     text-align: left;
+    margin-bottom: 7rem;
+
+}
+
+.our-team-header h2 {
+    font-size: 4.1rem;
+    text-transform: uppercase;
 
 }
 
@@ -343,7 +364,7 @@ body {
     width: 35%;
     line-height: 1.4;
 
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 
 }
 
@@ -378,18 +399,28 @@ body {
 }
 
 .our-team-team h3 {
-    margin: 0;
+    /*margin: 0;*/
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-bottom: 0;
+
+    font-size: 3rem;
+
 }
 
 .our-team-team p {
     width: 80%;
+    margin-top: 0;
+    margin-left: 1rem;
 }
 
 .our-team-team ul {
     /*border: 1px solid deeppink;*/
+    margin-left: 0;
+    padding-left: 0;
     list-style: none;
-    /*display: flex;*/
-    /*justify-content: flex-start;*/
+    display: flex;
+    justify-content: flex-start;
 
 }
 
@@ -397,7 +428,9 @@ body {
     text-decoration: none;
     font-style: italic;
     color: #000;
-    text-align: left;
+
+    /*padding-left: 25px;*/
+    padding-right: 25px;
 
 
 }
@@ -415,6 +448,7 @@ body {
 
 .team-members-tags {
     border: 1px solid red;
+    /*margin: 0;*/
 
     display: flex;
     justify-content: space-between;
@@ -423,14 +457,42 @@ body {
 
 .team-member-tag {
     border: 1px solid green;
+    margin: 0;
+    padding: 0;
+    width: 197px;
 
-    width: 20rem;
+
+}
+
+.team-member-tag:hover {
+    box-shadow: 0px 0px 60px 10px rgba(204, 204, 223, 0.71);
+
+}
+
+
+.team-member-btn {
+    width: 100%;
+    height: 3rem;
+    margin-top: -3rem;
+    padding: 0;
+    text-transform: uppercase;
+    border: 0;
+    background-color: #f5f0dd;
+    color: #f5f0dd;
+    font-size: 1.8rem;
+}
+
+.team-member-btn:hover {
+    cursor: pointer;
+    background-color: #000;
+    opacity: 0.5;
+    color: #fff;
 
 
 }
 
 
-/*-----------------------------Footer*/
+/*------------------------Footer--------------------*/
 
 .footer {
     margin: 0;
