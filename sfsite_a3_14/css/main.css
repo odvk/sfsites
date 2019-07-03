@@ -344,7 +344,7 @@ body {
 /*--------------------------- Our Team ---------------*/
 .our-team {
     width: 1249px;
-    margin: 10rem auto;
+    margin: 11rem auto;
     /*display: flex;*/
 
 }
@@ -395,7 +395,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
 
-    width: 70%;
+    width: 69%;
 
 }
 
@@ -413,6 +413,7 @@ body {
     width: 80%;
     margin-top: 0;
     margin-left: 1rem;
+    line-height: 1.7;
 }
 
 .our-team-team ul {
@@ -503,7 +504,7 @@ body {
 .subscribe {
     width: 1249px;
     margin: 0 auto;
-    padding-top: 8rem;
+    padding-top: 10rem;
     padding-bottom: 14rem;
 
     /*display: flex;*/
@@ -516,13 +517,14 @@ body {
     /*border: 1px solid deeppink;*/
 
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 5.4rem;
 }
 
 .subscribe-header h2 {
 
     font-size: 4.2rem;
     color: #fff;
+    letter-spacing: 2px;
 }
 
 .subscribe-header p {
@@ -557,9 +559,145 @@ body {
 
 }
 
-.subscribe-button:hover{
+.subscribe-button:hover {
     cursor: pointer;
 }
+
+/*------------- Contact Area ----------------------*/
+
+.contact-wrapper {
+    display: flex;
+    /*justify-content: flex-end;*/
+    /*width: 100vw;*/
+
+    margin-bottom: 10rem;
+}
+
+
+.contact {
+    border: 1px solid red;
+    width: 1249px;
+
+    margin: 6.8rem auto;
+
+    /*width: 1430px;*/
+
+    /*display: flex;*/
+    /*justify-content: flex-end;*/
+}
+
+.contact-header h2 {
+    font-size: 4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.contact-header p {
+    max-width: 743px;
+    line-height: 1.8;
+
+}
+
+.contact-header hr {
+    width: 134px;
+    border-color: #FF2D2D;
+    margin-top: 5.3rem;
+    margin-bottom: 7.5rem;
+}
+
+
+.contact-content {
+    border: 1px solid blue;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contact-input {
+    margin-right: 10rem;
+
+    max-width: 734px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-name {
+    width: 342px;
+    height: 71px;
+    background-color: #e5e5e5;
+    margin-right: 3rem;
+    border-radius: 5px;
+
+}
+
+.contact-name span {
+    margin-left: 30px;
+}
+
+.contact-email {
+    width: 342px;
+    height: 71px;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+
+}
+
+.contact-message {
+    margin-top: 4.5rem;
+    width: 734px;
+    height: 252px;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+
+}
+
+.contact-input-btn {
+    width: 100%;
+    height: 75px;
+    margin-top: 4rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+
+    background-color: #FF3B3B;
+}
+
+.contact-input-btn:hover {
+    cursor: pointer;
+}
+
+.contact-info-wrapper {
+    /*border: 1px solid black;*/
+    background-color: #2D2D2D;
+    color: #fff;
+    width: 580px;
+}
+
+.contact-info {
+    border: 1px solid red;
+    margin-top: 12.2rem;
+    margin-left: 8rem;
+}
+
+.contact-info h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 3.5rem;
+
+}
+
+.contact-info p {
+    margin-bottom: 2rem;
+    line-height: 1.8;
+
+}
+
 /*------------------------Footer--------------------*/
 
 .footer {
