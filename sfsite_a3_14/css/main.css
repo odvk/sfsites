@@ -2,15 +2,23 @@
 /*!*Open Sans*!*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap&subset=cyrillic');
 
+html {
+    font-size: 10px;
+}
+
+
 body {
+    box-sizing: border-box;
     height: 100%;
     margin: 0;
-    background-color: #e0e0e0;
+    background-color: #fff;
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-weight: normal;
+    font-size: 1.5rem;
 
 }
 
+/*Header*/
 .header {
     margin: 0 auto;
 
@@ -18,7 +26,7 @@ body {
     flex-wrap: wrap;
 
     justify-content: center;
-    align-items: center;
+    /*align-items: stretch;*/
 
     max-width: 1249px;
     min-height: 89px;
@@ -32,22 +40,27 @@ body {
 .nav {
     display: flex;
     flex-wrap: wrap;
+    align-items: stretch;
 
     /*border: 2px solid red;*/
 
 }
 
 .nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 70px;
+    /*padding: 36px 25px 34px;*/
+    padding-left: 25px;
+    padding-right: 25px;
 
-    padding: 36px 25px 34px;
-    /*padding: auto 0;*/
-    width: 80px;
     color: #e0e0e0;
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-    text-align: center;
+    /*text-align: center;*/
 
 }
 
@@ -61,6 +74,12 @@ body {
 
 }
 
+/*Intro area*/
+.intro-wrapper {
+    background-color: #e0e0e0;
+
+}
+
 .intro {
     margin: 0 auto;
 
@@ -70,7 +89,9 @@ body {
 
     background-color: #e0e0e0;
     max-width: 1249px;
-    padding: 85px 0 200px;
+    padding: 96px 0 96px;
+
+    font-size: 1.5rem;
 
     /*border: 2px solid blue;*/
 
@@ -88,14 +109,19 @@ body {
 .intro-text {
     /*max-width: 545px;*/
     /*margin-bottom: 40px;*/
+    line-height: 1.5;
 
 }
 
-.intro-content > h1 {
+.intro-heading {
     margin: 0;
     font-size: 60px;
     font-weight: 800;
     text-transform: uppercase;
+}
+
+.intro-heading > .style-text {
+    letter-spacing: 6px;
 }
 
 
@@ -108,20 +134,317 @@ body {
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 5px;
+    font-size: 2rem;
+}
+
+/*Services*/
+.services {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 11.5rem auto;
+    max-width: 1249px;
+    font-size: 1.5rem;
+    background-color: #fff;
+
+    /*font-size: 1.6rem;*/
+    line-height: 1.4;
+
+}
+
+.services p {
+    font-size: 1.6rem;
+    line-height: 1.7;
+
+}
+
+.services-content {
+    width: 50%;
+    /*border: 2px solid blue;*/
+
+}
+
+.services-content h1 {
+    margin-top: 0;
+    margin-bottom: 3rem;
+
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.service-tags {
+    /*border: 2px solid green;*/
+    width: 50%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin-left: 4rem;
+
+
+}
+
+.service-tag {
+    /*border: 1px solid red;*/
+    width: 27rem;
+    /*font-size: 1.4rem;*/
+    /*line-height: 1.4;*/
+
+
+}
+
+.service-tag > img {
+    width: 44px;
+    height: auto;
+    margin-bottom: 2.5rem;
+
+}
+
+.service-tag h3, p {
+    margin: 0;
+}
+
+.service-tag p {
+    margin-bottom: 5rem;
+}
+
+.service-tag h3 {
+
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+
+    /*line-height: 1.4;*/
+
 }
 
 
+.services-content-btn {
+    width: 23rem;
+    height: 57px;
+    margin-top: 9rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+
+    background-color: #fff;
+    border: 2px solid #FF0000;
+    color: #FF2D2D;
+
+    border-radius: 5px;
+
+}
+
+.services-content-btn:hover {
+    cursor: pointer;
+
+    /*background-color: #6e45e2;*/
+}
+
+/*-----------Feature Products*/
+
+.feature-products {
+    max-width: 1249px;
+    margin: 10rem auto;
+
+    /*display: flex;*/
+
+}
+
+.feature-products-header {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.feature-products-header h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.feature-products-header p {
+    width: 53rem;
+    display: inline-block;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+
+}
+
+.feature-products-header > hr {
+    width: 134px;
+    border-color: #FF2D2D;
+}
+
+.feature-products-menu {
+    /*border: 1px solid red;*/
+    /*width: 70%;*/
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.feature-products-menu ul {
+    /*border: 1px solid green;*/
+
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+
+}
+
+.feature-products-menu-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #000;
+
+
+}
+
+.feature-products-menu-link:hover {
+    color: #FF2D2D;
+}
+
+.feature-products-tags {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+
+.feature-products-tag {
+    /*border: 1px solid blue;*/
+
+    margin: 5px;
+
+}
+
+/*----------- Our Team ---------------*/
+.our-team {
+    width: 1249px;
+    margin: 10rem auto;
+
+}
+
+.our-team-header {
+    text-align: left;
+
+}
+
+.our-team-header p {
+    width: 35%;
+    line-height: 1.4;
+
+    margin-bottom: 2rem;
+
+}
+
+.our-team-header > hr {
+    width: 134px;
+    border-color: #FF2D2D;
+}
+
+
+.our-team-content {
+    margin-top: 5rem;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.our-team-boss {
+
+
+}
+
+.our-team-team {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 70%;
+
+}
+
+.our-team-team h3 {
+    margin: 0;
+}
+
+.our-team-team p {
+    width: 80%;
+}
+
+.our-team-team ul {
+    /*border: 1px solid deeppink;*/
+    list-style: none;
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
+
+}
+
+.our-team-links {
+    text-decoration: none;
+    font-style: italic;
+    color: #000;
+    text-align: left;
+
+
+}
+
+.our-team-links a {
+    text-align: left;
+    /*border: 1px solid purple;*/
+
+}
+
+.our-team-links:hover {
+    color: #FF2D2D;
+}
+
+
+.team-members-tags {
+    border: 1px solid red;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.team-member-tag {
+    border: 1px solid green;
+
+    width: 20rem;
+
+
+}
+
+
+/*-----------------------------Footer*/
+
 .footer {
+    margin: 0;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
-    margin: 0;
+    font-size: 1.6rem;
 
     min-height: 113px;
     background-color: #313030;
+
 
 }
 
@@ -150,23 +473,52 @@ body {
     padding: 0 9px;
 }
 
-/*Медиа-запрос. */
-@media screen and (max-width: 1100px) {
+/*Медиа-запросы */
+@media screen and (max-width: 1286px) {
+    .intro {
+        flex-wrap: nowrap;
+    }
+
     .intro-content {
         margin: 0 auto;
-        width: 539px;
+        /*width: 539px;*/
+        width: 50%;
     }
 
-    .intro-content h1, p {
-        text-align: center;
+    .intro-image-link {
+        width: 50%;
+        height: auto;
     }
 
-    .intro a {
-        margin: 15px auto;
+    .intro-image {
+        max-width: 554px;
+        width: 100%;
+        height: auto;
     }
+
+
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 1040px) {
+
+    .intro-content h1 {
+        /*font-size: 50px;*/
+        /*width: 100%;*/
+        word-break: break-word;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .intro-heading {
+        font-size: 5vw;
+    }
+
+    .intro {
+        flex-wrap: wrap;
+    }
+
     .intro-content {
         margin: 0 auto;
         width: 100%;
@@ -176,11 +528,22 @@ body {
         text-align: center;
     }
 
-    .intro-content h1 {
-        font-size: 40px;
-        /*width: 100%;*/
+    .intro-image-link {
+        max-width: 540px;
+        width: 100%;
+        height: auto;
     }
 
+    .intro a {
+        margin: 15px auto;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    .intro {
+        flex-wrap: wrap;
+    }
 
     .intro a {
         margin: 15px auto;
@@ -188,7 +551,7 @@ body {
 
     .intro-image {
         width: 100%;
-        height: 100%;
+        height: auto;
     }
 }
 
@@ -196,6 +559,6 @@ body {
 
     .intro-image {
         width: 350px;
-        /*height: 100%;*/
+        height: auto;
     }
 }
