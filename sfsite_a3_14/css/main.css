@@ -32,8 +32,6 @@ body {
     min-height: 89px;
     background-color: #000000;
 
-    /*border: 2px solid green;*/
-
 
 }
 
@@ -42,7 +40,7 @@ body {
     flex-wrap: wrap;
     align-items: stretch;
 
-    /*border: 2px solid red;*/
+    margin-left: -7rem;
 
 }
 
@@ -62,6 +60,7 @@ body {
     text-transform: uppercase;
     /*text-align: center;*/
 
+
 }
 
 .nav a:hover {
@@ -74,7 +73,7 @@ body {
 
 }
 
-/*Intro area*/
+/* ------------------------ Intro area ---------------------*/
 .intro-wrapper {
     background-color: #e0e0e0;
 
@@ -106,13 +105,6 @@ body {
     /*max-width: 545px;*/
 }
 
-.intro-text {
-    /*max-width: 545px;*/
-    /*margin-bottom: 40px;*/
-    line-height: 1.5;
-
-}
-
 .intro-heading {
     margin: 0;
     font-size: 60px;
@@ -124,13 +116,20 @@ body {
     letter-spacing: 6px;
 }
 
+.intro-text {
+    /*margin-top: -4rem;*/
+    /*max-width: 545px;*/
+    /*margin-bottom: 40px;*/
+    line-height: 2;
+
+}
 
 .contact-link {
+    margin-top: 1rem;
     color: #ffffff;
     background-color: #ff3f40;
     width: 227px;
     padding: 17px 0;
-    margin: 15px 0;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
@@ -376,6 +375,8 @@ body {
 
 
 .our-team-content {
+    /*border: 1px solid deeppink;*/
+
     margin-top: 5rem;
 
     display: flex;
@@ -389,7 +390,8 @@ body {
 }
 
 .our-team-team {
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -449,7 +451,7 @@ body {
 
 
 .team-members-tags {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     /*margin: 0;*/
 
     display: flex;
@@ -459,7 +461,7 @@ body {
 }
 
 .team-member-tag {
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     margin: 0;
     padding: 0;
     width: 197px;
@@ -567,23 +569,18 @@ body {
 
 .contact-wrapper {
     display: flex;
-    /*justify-content: flex-end;*/
-    /*width: 100vw;*/
+    flex-wrap: wrap;
 
     margin-bottom: 10rem;
 }
 
 
 .contact {
-    border: 1px solid red;
-    width: 1249px;
+    /*border: 1px solid red;*/
 
+    width: 1249px;
     margin: 6.8rem auto;
 
-    /*width: 1430px;*/
-
-    /*display: flex;*/
-    /*justify-content: flex-end;*/
 }
 
 .contact-header h2 {
@@ -607,24 +604,28 @@ body {
 
 
 .contact-content {
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 
 }
 
 .contact-input {
-    margin-right: 10rem;
+    /*border: 1px solid green;*/
 
-    max-width: 734px;
+    /*margin-bottom: 2rem;*/
+    /*margin-right: 5rem;*/
+    min-width: 700px;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .contact-name {
-    width: 342px;
+    width: 45%;
     height: 71px;
     background-color: #e5e5e5;
     margin-right: 3rem;
@@ -637,7 +638,7 @@ body {
 }
 
 .contact-email {
-    width: 342px;
+    width: 45%;
     height: 71px;
     background-color: #e5e5e5;
     border-radius: 5px;
@@ -646,7 +647,7 @@ body {
 
 .contact-message {
     margin-top: 4.5rem;
-    width: 734px;
+    width: 100%;
     height: 252px;
     background-color: #e5e5e5;
     border-radius: 5px;
@@ -675,11 +676,12 @@ body {
     /*border: 1px solid black;*/
     background-color: #2D2D2D;
     color: #fff;
-    width: 580px;
+    width: 35%;
+    min-width: 300px;
 }
 
 .contact-info {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     margin-top: 12.2rem;
     margin-left: 8rem;
 }
@@ -741,7 +743,7 @@ body {
     padding: 0 9px;
 }
 
-/*Медиа-запросы */
+/* ------------------------ Медиа-запросы ----------------------*/
 @media screen and (max-width: 1286px) {
     .intro {
         flex-wrap: nowrap;
@@ -751,6 +753,10 @@ body {
         margin: 0 auto;
         /*width: 539px;*/
         width: 50%;
+    }
+
+    .intro-content h1 {
+        word-break: break-word;
     }
 
     .intro-image-link {
@@ -764,16 +770,37 @@ body {
         height: auto;
     }
 
+    .our-team-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .subscribe-header h2 {
+        /*word-break: break-word;*/
+        /*font-size: 5vw;*/
+
+    }
+
+}
+@media screen and (max-width: 1100px) {
+
+
+    .contact-info-wrapper {
+        min-width: 700px;
+        margin-top: 2rem;
+    }
+
 
 }
 
 @media screen and (max-width: 1040px) {
 
-    .intro-content h1 {
-        /*font-size: 50px;*/
-        /*width: 100%;*/
-        word-break: break-word;
+
+    .contact-info-wrapper {
+        min-width: 700px;
+        margin-top: 2rem;
     }
+
 
 }
 
