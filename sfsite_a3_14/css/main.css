@@ -19,6 +19,10 @@ body {
 }
 
 /*Header*/
+.header-wrapper {
+    background-color: #e0e0e0;
+}
+
 .header {
     margin: 0 auto;
 
@@ -40,7 +44,7 @@ body {
     flex-wrap: wrap;
     align-items: stretch;
 
-    margin-left: -7rem;
+    /*margin-left: -7rem;*/
 
 }
 
