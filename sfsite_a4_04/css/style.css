@@ -48,13 +48,12 @@
     list-style: none;
 }
 
-.site-menu a::before {
+.site-menu li::before {
     content: '\23AF';
     width: 50px;
     padding-right: 10px;
 
 }
-
 
 .site-heading::before {
     content: '\23AF';
