@@ -4,6 +4,9 @@ function handleButton() {
     // взять данные по dataUrl, вытащить их и передать в handleData
     $.getJSON(dataURL, handleData);
 
+    // можно прятать форму
+    $("form#messages").hide();
+
     // let text = "Здесь могла быть ваша реклама";
     // $("#result").text(text);
 }
@@ -11,33 +14,26 @@ function handleButton() {
 function handleData(data) {
     let finalMessage = "";
 
-    let var1 = $("input[name=var1]")[0].value;
-    let var2 = $("input[name=var2]")[0].value;
-    let var3 = $("input[name=var3]")[0].value;
-    let var4 = $("input[name=var4]")[0].value;
-    let var5 = $("input[name=var5]")[0].value;
-    let var6 = $("input[name=var6]")[0].value;
-    let speach = $("input[name=speach]")[0].value;
+    let obj = {
+        var1: $("input[name=var1]")[0].value,
+        var2: $("input[name=var2]")[0].value,
+        var3: $("input[name=var3]")[0].value,
+        var4: $("input[name=var4]")[0].value,
+        var5: $("input[name=var5]")[0].value,
+        var6: $("input[name=var6]")[0].value,
+        speach: $("input[name=speach]")[0].value
+    };
 
     data["text"].forEach(function (item, index) {
-            item = item.replace("{var1}", var1);
-            item = item.replace("{var2}", var2);
-            item = item.replace("{var3}", var3);
-            item = item.replace("{var4}", var4);
-            item = item.replace("{var5}", var5);
-            item = item.replace("{var6}", var6);
-            item = item.replace("{speach}", speach);
-
+            for (key in obj) {
+                item = item.replace("{" + key + "}", obj[key]);
+            }
             finalMessage = finalMessage + item + "<br>";
         }
     );
 
+    // выводим финальное сообщение
     $("div#result").html(finalMessage);
-
-    // выведем finalMessage в консоль
-    // console.log(finalMessage);
-    // Можно вывести в консоль содержимое data["text"]
-    // console.log(data["text"])
 }
 
 
